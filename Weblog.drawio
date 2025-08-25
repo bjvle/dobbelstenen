@@ -5,10 +5,12 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0HqbQKMQTUYCK2z65wU1-1" value="Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="480" y="620" width="100" height="100" as="geometry" />
+          <mxGeometry x="480" y="870" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IiBhuVGZayrfeFoXQRbq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HqbQKMQTUYCK2z65wU1-4" target="IiBhuVGZayrfeFoXQRbq-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HqbQKMQTUYCK2z65wU1-4" target="IiBhuVGZayrfeFoXQRbq-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0HqbQKMQTUYCK2z65wU1-4" value="Post Controller&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Calls the &quot;Store&quot; method, which in turn:&lt;/div&gt;&lt;div&gt;1: Makes a POST request&lt;/div&gt;&lt;div&gt;2:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;calls the &quot;Index&quot; method&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="200" height="120" as="geometry" />
@@ -36,21 +38,34 @@
           <mxGeometry x="530" y="330" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IiBhuVGZayrfeFoXQRbq-15" value="Index View" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="520" width="200" height="40" as="geometry" />
+          <mxGeometry x="40" y="766" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IiBhuVGZayrfeFoXQRbq-17" value="Index Method:&lt;div&gt;- Redirect to the Index view&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Makes a GET request&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="440" width="20" height="30" as="geometry" />
+          <mxGeometry x="140" y="420" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IiBhuVGZayrfeFoXQRbq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IiBhuVGZayrfeFoXQRbq-15" target="0HqbQKMQTUYCK2z65wU1-1">
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IiBhuVGZayrfeFoXQRbq-15" target="0HqbQKMQTUYCK2z65wU1-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="260" y="540" />
-              <mxPoint x="260" y="670" />
+              <mxPoint x="240" y="780" />
+              <mxPoint x="280" y="780" />
+              <mxPoint x="280" y="920" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiBhuVGZayrfeFoXQRbq-24" value="&lt;div&gt;GET request : Retrieve all posts&lt;/div&gt;&lt;div&gt;and their corresponding categories&lt;/div&gt;&lt;div&gt;from the database&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="550" width="50" height="100" as="geometry" />
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-GET request : Retrieve all posts&lt;/div&gt;&lt;div&gt;and their corresponding categories&lt;/div&gt;&lt;div&gt;from the database&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IiBhuVGZayrfeFoXQRbq-25" target="IiBhuVGZayrfeFoXQRbq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-25" value="Routes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="586" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Redirect to the Index view&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="686" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-29" value="Item Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
