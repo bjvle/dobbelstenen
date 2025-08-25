@@ -10,7 +10,7 @@
         <mxCell id="IiBhuVGZayrfeFoXQRbq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HqbQKMQTUYCK2z65wU1-4" target="IiBhuVGZayrfeFoXQRbq-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0HqbQKMQTUYCK2z65wU1-4" value="Post Controller&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Calls the &quot;Store&quot; method of tbe PostController class which in turn calls the &quot;Index&quot; method&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="0HqbQKMQTUYCK2z65wU1-4" value="Post Controller&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Calls the &quot;Store&quot; method&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;which in turn calls the &quot;Index&quot; method&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IiBhuVGZayrfeFoXQRbq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IiBhuVGZayrfeFoXQRbq-1" target="IiBhuVGZayrfeFoXQRbq-4">
@@ -32,7 +32,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiBhuVGZayrfeFoXQRbq-10" value="Makes a POST request:&amp;nbsp;&lt;div&gt;- Create a new&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;record for the new blog post&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-10" value="&quot;Store&quot; method:&amp;nbsp;&lt;div&gt;- Create a new&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;record for the new blog post&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="290" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="IiBhuVGZayrfeFoXQRbq-15" value="Index View" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
