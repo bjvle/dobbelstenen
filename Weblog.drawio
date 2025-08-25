@@ -5,22 +5,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0HqbQKMQTUYCK2z65wU1-1" value="Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="90" y="570" width="60" height="60" as="geometry" />
+          <mxGeometry x="490" y="370" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0HqbQKMQTUYCK2z65wU1-3" value="View: Create" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="60" y="800" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0HqbQKMQTUYCK2z65wU1-4" value="Controller: Create" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="40" y="240" width="200" height="80" as="geometry" />
+        <mxCell id="0HqbQKMQTUYCK2z65wU1-4" value="Post Controller" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="550" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IiBhuVGZayrfeFoXQRbq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IiBhuVGZayrfeFoXQRbq-1" target="0HqbQKMQTUYCK2z65wU1-4">
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IiBhuVGZayrfeFoXQRbq-1" target="IiBhuVGZayrfeFoXQRbq-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IiBhuVGZayrfeFoXQRbq-1" value="HTTP Request: Submit post&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The user presses the &quot;Submit&quot;&lt;/div&gt;&lt;div&gt;button on the create view.&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-1" value="Create View" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IiBhuVGZayrfeFoXQRbq-3" value="Post request" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="180" width="50" height="40" as="geometry" />
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-4" value="User presses&lt;div&gt;the submit button&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
