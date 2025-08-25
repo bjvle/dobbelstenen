@@ -32,7 +32,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiBhuVGZayrfeFoXQRbq-10" value="&quot;Store&quot; method:&amp;nbsp;&lt;div&gt;- Create a new&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;record for the new blog post&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="IiBhuVGZayrfeFoXQRbq-10" value="POST request:&amp;nbsp;&lt;div&gt;- Create a new&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;record for the new blog post&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="330" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IiBhuVGZayrfeFoXQRbq-15" value="Index View" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
